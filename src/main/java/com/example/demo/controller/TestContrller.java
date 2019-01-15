@@ -11,6 +11,7 @@ public class TestContrller {
 
     @GetMapping("/test")
     public String Test(String str){
+        String str1 = "123321";
         return str;
     }
 
